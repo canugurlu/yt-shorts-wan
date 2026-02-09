@@ -53,9 +53,6 @@ RUN pip3 install \
     opencv-python \
     imageio-ffmpeg
 
-# Login to Hugging Face (required for gated models)
-RUN huggingface-cli login --token ${HF_TOKEN}
-
 # Install Runpod serverless SDK
 RUN pip3 install runpod
 

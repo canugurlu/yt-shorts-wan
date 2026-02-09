@@ -45,7 +45,6 @@ jobs:
           cache-from: type=gha
           cache-to: type=gha,mode=max
           build-args: |
-            HF_TOKEN=${{ secrets.HF_TOKEN }}
 
       - name: Build complete
         run: |

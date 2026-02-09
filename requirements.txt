@@ -1,0 +1,25 @@
+# Core dependencies for Wan2.2-I2V
+# Generated for Runpod Serverless
+
+torch>=2.4.0
+torchvision>=0.19.0
+numpy>=1.26.4
+pillow>=10.4.0
+
+# Diffusers - install from GitHub main branch for Wan2.2 support
+# pip install git+https://github.com/huggingface/diffusers
+diffusers @ git+https://github.com/huggingface/diffusers
+
+# Hugging Face ecosystem
+transformers>=4.46.0
+accelerate>=1.0.1
+huggingface-hub>=0.26.2
+safetensors>=0.4.5
+sentencepiece>=0.2.0
+
+# Video processing
+opencv-python>=4.10.0
+imageio-ffmpeg>=0.5.1
+
+# Runpod serverless SDK
+runpod>=1.6.0
